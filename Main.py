@@ -19,7 +19,7 @@ if __name__=="__main__":
             elif operation in start.getcommand("facerec"):
                 start.writefunction("f")
                 while (not (start.readfunction()=="a")):
-                        time.sleep(0.1)
+                        time.sleep(0.1) //delay
                 start.writefunction("r")
                 start.modeluse = True
             elif operation in start.getcommand("ocr"):
